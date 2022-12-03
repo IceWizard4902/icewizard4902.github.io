@@ -1,0 +1,69 @@
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #feb32b;
+  float: left;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.phoenix {
+    font-weight: bold;
+    font-size:0.8vw;
+    text-align: center;
+}
+.phoenix pre {
+    display: inline;
+}
+.phoenix1 {
+    color: #ffcc00
+}
+.phoenix2 {
+    color: #fdae00
+}
+.phoenix3 {
+    color: #f79000
+}
+.phoenix4 {
+    color: #ee710f
+}
+.phoenix5 {
+    color: #e1521c
+}
+.phoenix6 {
+    color: #de4920
+}
+.phoenix7 {
+    color: #da4023
+}
+.phoenix8 {
+    color: #d63626
+}
+.phoenix9 {
+    color: #dd4325
+}
+.phoenix10 {
+    color: #e54f24
+}
+.phoenix11 {
+    color: #eb5b23
+}
+.phoenix12 {
+    color: #f26722
+}
+
+.main-description {
+    font-size: 1.3em;
+    margin-top: 1em;
+    text-align: center;
+}
