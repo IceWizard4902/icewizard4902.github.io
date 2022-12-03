@@ -1,5 +1,4 @@
 # Parcel
-> Author: Nguyen Quang Vinh
 
 Using `file` to analyse the file, we do know that this should be an executable but it is packed using a packer we did not know yet. 
 

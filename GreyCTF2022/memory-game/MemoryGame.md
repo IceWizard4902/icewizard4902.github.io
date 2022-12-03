@@ -1,5 +1,4 @@
 # Memory Game (Part 1)
-> Author: Nguyen Quang Vinh
 
 This challenge is about finding where the image assets are stored. We can extract the original structure of the `apk` file by using `apktool d memory-game.apk`. We get the data that is in the sub-directories `assets`, `original`, `res` and `smali` of this folder.
 

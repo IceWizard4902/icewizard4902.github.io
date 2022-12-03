@@ -1,5 +1,4 @@
 # SlowDown
-> Author: Nguyen Quang Vinh
 
 To retrieve the flag, one has to do operations that combined, takes longer than 5 seconds for the program to execute. 
 
@@ -24,4 +23,25 @@ One strategy is to add a number of entries into the hashmap, then calculate the 
 
 Hence, the total runtime will be `x * 1 + (LIMIT - x) * x`. The maximum value of this quadratic happens at `(LIMIT + 1) / 2`, which is not an integer but we can take either the floor or ceil of the value.
 
-Hence, we need `12500` operations opcode `0` and the rest for operations opcode `1` to waste as much time as possible. To waste slightly more time, we can increase the value of the `(key, value)` pair so that operations on them take a longer time. The script to retrieve the flag can be found at the `solve.py` file. The key is cubed so it is big enough to waste time, and the value is a random arbitrary number that's big enough to fit in `int`
+Hence, we need `12500` operations opcode `0` and the rest for operations opcode `1` to waste as much time as possible. To waste slightly more time, we can increase the value of the `(key, value)` pair so that operations on them take a longer time. The key is cubed so it is big enough to waste time, and the value is a random arbitrary number that's big enough to fit in `int`
+
+Solution Implementation:
+```python
+from pwn import * 
+
+io = remote('challs.nusgreyhats.org', 10527)
+
+print(io.recvline())
+print(io.recvline())
+
+for i in range(12500):
+	io.sendline(b'0 ' + str(i ** 3).encode() + b' 69696969')
+
+for i in range(12499):
+	print(i)
+	io.sendline(b'1')
+	print(io.recvline())
+
+io.sendline(b'2')
+print(io.recvline())
+```

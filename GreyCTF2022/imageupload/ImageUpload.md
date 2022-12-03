@@ -1,5 +1,4 @@
 # ImageUpload
-> Author: Nguyen Quang Vinh
 
 This challenge is about inspecting a network dump from a Wireshark dump file. Opening Wireshark to analyse the `dump.pcap` file, we can filter out the `http` protocol (as image uploading is essentially a `POST` request to an endpoint).
 

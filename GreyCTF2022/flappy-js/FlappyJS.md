@@ -1,5 +1,4 @@
 # Flappy-js
-> Author: Nguyen Quang Vinh
 
 This is a RE challenge in the web category. We have to reverse the logic of the game or find the function which produce the flag for us. Upon inspecting the page using `Sources` in the Chrome Developer Tools, we see that there is JS files in the `js` and `build` sub-directory.
 This does not contain anything useful to retrieve the flag, most of it is the source code to power the game. However, looking at the `build` folder shows something very promising to the flag.
