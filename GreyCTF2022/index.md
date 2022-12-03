@@ -7,15 +7,15 @@ First ever CTF. Managed to solve a few challenges and learnt a ton!
 | [Baby](./baby) | crypto      |
 |[Block](./block)| crypto |
 |[Cube](./cube)| crypto |
-|[Data Degen](./datadegen)| misc |
+|[Data Degen](./data-degeneration-challenge)| misc |
 |[Entry](./entry)| crypto | 
 |[Equation](./equation)| crypto | 
 |[Firmware](./firmware)| misc | 
 |[Flappy-js](./flappy-js)| re 
 |[Ghost](./ghost)| misc | 
-|[Image Upload](./imageupload)| misc |
+|[Image Upload](./image-upload-challenge)| misc |
 |[Logical Computers](./logicalcomputers)| misc | 
-|[Parcel](./parcel)| misc | 
+|[Parcel](./parcel-challenge)| misc | 
 |[Permutation](./permutation) | crypto | 
 |[Slow Down](./slowdown) | misc |
 |[Memory Game](./memory-game)| misc | 
