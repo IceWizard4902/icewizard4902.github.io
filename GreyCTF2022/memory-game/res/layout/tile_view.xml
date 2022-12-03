@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snatik.matches.ui.TileView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:background="@drawable/tile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/image_top" android:background="@drawable/tile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="50.0dip" android:layout_height="wrap_content" android:src="@drawable/tile_back_star" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.snatik.matches.ui.TileView>

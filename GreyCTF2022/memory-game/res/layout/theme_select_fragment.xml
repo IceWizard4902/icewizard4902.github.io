@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/theme_padding" android:paddingRight="@dimen/theme_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/theme_animals_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/theme_margin" android:layout_weight="1.0">
+        <ImageView android:id="@id/theme_animals" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/animals_theme_star_0" android:adjustViewBounds="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/theme_monsters_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/theme_margin" android:layout_weight="1.0">
+        <ImageView android:id="@id/theme_monsters" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/monsters_theme_star_0" android:adjustViewBounds="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/theme_emoji_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/theme_margin" android:layout_weight="1.0">
+        <ImageView android:id="@id/theme_emoji" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/emoji_theme_star_0" android:adjustViewBounds="true" />
+    </RelativeLayout>
+</LinearLayout>

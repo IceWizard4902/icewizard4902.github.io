@@ -1,0 +1,11 @@
+Package: kmod-usb-core
+Version: 5.4.154-1
+Depends: kernel (=5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nls-base
+Source: package/kernel/linux
+SourceName: kmod-usb-core
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1625225471
+Architecture: arm_cortex-a9_neon
+Installed-Size: 239
+Description:  Kernel support for USB

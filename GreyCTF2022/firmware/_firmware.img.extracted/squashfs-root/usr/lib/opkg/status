@@ -1,0 +1,728 @@
+Package: kmod-usb-storage
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-scsi-core, kmod-usb-core
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libc
+Version: 1.1.24-3
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: mkf2fs
+Version: 1.14.0-1
+Depends: libc, libf2fs6
+Conflicts: mkf2fs-selinux
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: opkg
+Version: 2021-06-13-1bf042dd-1
+Depends: libc, uclient-fetch, libpthread, libubox20210516
+Status: install user installed
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/opkg.conf f38c19f696ea87c0b30eb5bfeb8657237f4625e1a749c58b99f01595edfb6446
+ /etc/opkg/customfeeds.conf 61d1f3aa62fe977614ed0c2f0ad3b2ee2f7b451bfb34812071d86d31a4d43d4a
+Installed-Time: 1635066095
+
+Package: kmod-usb-core
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nls-base
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libpthread
+Version: 1.1.24-3
+Depends: libgcc1
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: ubus
+Version: 2021-06-30-4fc532c8-2
+Depends: libc, libubus20210630, libblobmsg-json20210516, ubusd
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: libuci20130104
+ABIVersion: 20130104
+Version: 2020-10-06-52bbc99f-5
+Depends: libc, libubox20210516
+Provides: libuci
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.33.1-6
+Depends: libc
+Conflicts: busybox-selinux
+Status: install user installed
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-nf-reject6
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-nf-flow
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nf-conntrack
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libnl-tiny1
+ABIVersion: 1
+Version: 2020-08-05-c291088f-2
+Depends: libc
+Provides: libnl-tiny
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: libustream-wolfssl20201210
+ABIVersion: 20201210
+Version: 2020-12-10-68d09243-1
+Depends: libc, libubox20210516, libwolfssl4.8.1.66253b90
+Provides: libustream-wolfssl
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-lib-crc-ccitt
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libwolfssl4.8.1.66253b90
+ABIVersion: 4.8.1.66253b90
+Version: 4.8.1-stable-4
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl4.8.1.66253b90
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: getrandom
+Version: 2020-10-25-9ef88681-2
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-pppoe
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-ppp, kmod-pppox
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libuuid1
+ABIVersion: 1
+Version: 2.36.1-2
+Depends: libc, librt
+Provides: libuuid
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-pppox
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-ppp
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-ipt-conntrack
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-ipt-core, kmod-nf-conntrack
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-nf-reject
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: base-files
+Version: 1434-r16325-88151b8303
+Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/ethers 56bda09b0aa3d1e88107bfa8a1c6e4449d5c1f47245dc1c4037ff9b5db163b7c
+ /etc/group 45e8cab268d4a2254d48ccb1f889630047e81758de54a614cad5449fdbebe19c
+ /etc/hosts c1a978d90673437b35fa9494e0a54294062c152bb653d490b718052ab88447fd
+ /etc/inittab 9065dbb3e44d56a7263aefaf2b579e5e9fcd90f2932f3ff14d60a7dfeecc5d6d
+ /etc/iproute2/rt_protos a0712b1771c8d5f3e0dcf9a6314880e71aa3498ea1ae873535bdfcf70d814061
+ /etc/iproute2/rt_tables f771e2b81741f70e3faf658dc504f0dc048672fc8caaadea15e46c35da3de8f8
+ /etc/passwd 6a451aa33393f47ade89b8bce4d9711818c2630394c3967265ffed276bb25a55
+ /etc/profile c7e4ca53232e015d6f7262ed48bf964a7ee995d034e34a36589c51a110af4daa
+ /etc/protocols 7d551355d5540b07b9d86e623cbbc4abecbb94d2a662b3afcc917940eb0e3d52
+ /etc/rc.local 515018aa94eb4937dade12dc0d69890b352af35a5ab5fb8203f9ed10990ac06f
+ /etc/services 754ccc71ca347bc79ac4c45139d416b7cf1e65a919dad1db15613a216cd6b9cc
+ /etc/shadow ccbbfeee2dd560403fea13f7f431ebd21d9bb4b3d41e48e892013fa451f91cc4
+ /etc/shells 8b35ce73c18161a7d7ed16fa244410993bd031515260e3e0c11749047df48d0a
+ /etc/shinit 7e7648d7bc6eb02fe0b24a87425d7d4ffc6600abd19f0954616662ce924f2446
+ /etc/sysctl.conf c02fe88dc055a1eaee9e7cb631760a3a5a9cea55610b42aa45196838c6f1a55e
+ /etc/sysupgrade.conf 9e87b05fe2f12c84d1c465b396322748479f64bc40e5bab061887f0bd95020a6
+Installed-Time: 1635066095
+
+Package: kmod-nf-nat
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nf-conntrack
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libubus20210630
+ABIVersion: 20210630
+Version: 2021-06-30-4fc532c8-2
+Depends: libc, libubox20210516
+Provides: libubus
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-fs-msdos
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-fs-vfat, kmod-nls-base
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libjson-script20210516
+ABIVersion: 20210516
+Version: 2021-05-16-b14c4688-2
+Depends: libc, libubox20210516
+Provides: libjson-script
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: netifd
+Version: 2021-07-26-440eb064-1
+Depends: libc, libuci20130104, libnl-tiny1, libubus20210630, ubus, ubusd, jshn, libubox20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/udhcpc.user 4dabffbc2110a29e01babc63d9b8db94da49efd3ed784d35b49a559ac8ce7035
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: libf2fs6
+ABIVersion: 6
+Version: 1.14.0-1
+Depends: libc, libuuid1
+Provides: libf2fs
+Conflicts: libf2fs-selinux
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: uboot-envtools
+Version: 2021.01-10
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: dnsmasq
+Version: 2.85-8
+Depends: libc, libubus20210630
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/config/dhcp ddd520eb24451a892c9c666d83c10c9ea4fc944efbc34a149bc962c56bd8812f
+ /etc/dnsmasq.conf 1e6ab19c1ae5e70d609ac7b6246541d52042e4dee1892f825266507ef52d7dfd
+Installed-Time: 1635066095
+
+Package: procd
+Version: 2021-02-23-37eed131-1
+Depends: libc, ubusd, ubus, libjson-script20210516, ubox, libubox20210516, libubus20210630, libblobmsg-json20210516, libjson-c5, jshn
+Conflicts: procd-selinux
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: ubusd
+Version: 2021-06-30-4fc532c8-2
+Depends: libc, libubox20210516, libblobmsg-json20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: libxtables12
+ABIVersion: 12
+Version: 1.8.7-1
+Depends: libc
+Provides: libxtables
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-fs-vfat
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nls-base, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: firewall
+Version: 2021-03-23-61db17ed-1
+Depends: libc, libubox20210516, libubus20210630, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/config/firewall de732cfb093ff5b51c2877db734651b513f2fb920d28881bf0e2ba9bbc0d5f80
+ /etc/firewall.user bd68324966481011f5e36570258ad97dd422655c16f3119d48325ed8459de510
+Installed-Time: 1635066095
+
+Package: kmod-nf-ipt
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-can
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libblkid1
+ABIVersion: 1
+Version: 2.36.1-2
+Depends: libc, libuuid1
+Provides: libblkid
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-ip6tables
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nf-reject6, kmod-nf-ipt6, kmod-ipt-core
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: odhcp6c
+Version: 2021-01-09-53f07e90-16
+Depends: libc, libubox20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: fstools
+Version: 2021-01-04-c53b1882-1
+Depends: libc, ubox
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: uclient-fetch
+Version: 2021-05-14-6a6011df-1
+Depends: libc, libuclient20201210
+Provides: wget
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+
+Package: uci
+Version: 2020-10-06-52bbc99f-5
+Depends: libc, libuci20130104
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libip4tc2
+ABIVersion: 2
+Version: 1.8.7-1
+Depends: libc, libxtables12
+Provides: libip4tc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: dropbear
+Version: 2020.81-2
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/dropbear/dropbear_ed25519_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/dropbear/dropbear_rsa_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/config/dropbear 0198dbc97b5a9aac76a5c6233684571ccdcc91fcb735e91c36d2b06a98158589
+Installed-Time: 1635066095
+Alternatives: 100:/usr/bin/scp:/usr/sbin/dropbear, 100:/usr/bin/ssh:/usr/sbin/dropbear
+
+Package: kmod-nls-utf8
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nls-base
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-nls-cp437
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nls-base
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: mtd
+Version: 26
+Depends: libc, libubox20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: odhcpd-ipv6only
+Version: 2021-07-18-bc9d317f-3
+Depends: libc, libubox20210516, libuci20130104, libubus20210630, libnl-tiny1
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libblobmsg-json20210516
+ABIVersion: 20210516
+Version: 2021-05-16-b14c4688-2
+Depends: libc, libjson-c5, libubox20210516
+Provides: libblobmsg-json
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: urandom-seed
+Version: 3
+Depends: libc, getrandom
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libcomerr0
+ABIVersion: 0
+Version: 1.45.6-2
+Depends: libc, libuuid1
+Provides: libcomerr
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: ppp
+Version: 2.4.8.git-2020-10-03-3
+Depends: libc, kmod-ppp
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/ppp/chap-secrets 6981fa176a79f8c12be5826c421b16253a616747018ba7e76752a9d36d1d51d4
+ /etc/ppp/filter 579583b318e0cff706ffc134620b42d3fbce8fc31aeb0ad7eea1cc859868e902
+ /etc/ppp/options 01f7358a5528be037dde329a2ecfb7a63382aababf21d4f5bc085f5acef95133
+Installed-Time: 1635066095
+
+Package: logd
+Version: 2020-10-25-9ef88681-2
+Depends: libc, libubox20210516, libubus20210630, libblobmsg-json20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-can-xilinx-can
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-can
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: librt
+Version: 1.1.24-3
+Depends: libpthread
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libip6tc2
+ABIVersion: 2
+Version: 1.8.7-1
+Depends: libc, libxtables12
+Provides: libip6tc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: iptables
+Version: 1.8.7-1
+Depends: libc, kmod-ipt-core, libip4tc2, libip6tc2, libxtables12
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: openwrt-keyring
+Version: 2021-02-20-49283916-2
+Depends: libc
+Provides: lede-keyring
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: libext2fs2
+ABIVersion: 2
+Version: 1.45.6-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libubox20210516
+ABIVersion: 20210516
+Version: 2021-05-16-b14c4688-2
+Depends: libc
+Provides: libubox
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: jshn
+Version: 2021-05-16-b14c4688-2
+Depends: libc, libjson-c5, libubox20210516, libblobmsg-json20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-ipt-core
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nf-reject, kmod-nf-ipt
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: e2fsprogs
+Version: 1.45.6-2
+Depends: libc, libuuid1, libext2fs2
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Conffiles:
+ /etc/e2fsck.conf dece11e2b15f487d7d2bf9f96abe2eaaf9cd33f02d7b9725b9116023d7786cac
+Installed-Time: 1635066095
+
+Package: kmod-ppp
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-lib-crc-ccitt, kmod-slhc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libss2
+ABIVersion: 2
+Version: 1.45.6-2
+Depends: libc, libcomerr0
+Provides: libss
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libjson-c5
+ABIVersion: 5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-nf-conntrack
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: ip6tables
+Version: 1.8.7-1
+Depends: libc, kmod-ip6tables, iptables
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-nf-ipt6
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nf-ipt
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: ca-bundle
+Version: 20210119-1
+Depends: libc
+Provides: ca-certs
+Status: install user installed
+Architecture: all
+Installed-Time: 1635066095
+
+Package: libuclient20201210
+ABIVersion: 20201210
+Version: 2021-05-14-6a6011df-1
+Depends: libc, libubox20210516
+Provides: libuclient
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-nls-iso8859-1
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nls-base
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-nf-conntrack6
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-nf-conntrack
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: libgcc1
+ABIVersion: 1
+Version: 8.4.0-3
+Provides: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: ubox
+Version: 2020-10-25-9ef88681-2
+Depends: libc, libubox20210516, ubusd, ubus, libubus20210630, libuci20130104
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+
+Package: kernel
+Version: 5.4.154-1-4d98992afebebb8044ab29c1fd438e74
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-nls-base
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: fwtool
+Version: 2019-11-12-8f7fe925-1
+Depends: libc
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20210516, libjson-c5
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+Auto-Installed: yes
+
+Package: kmod-ipt-offload
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-ipt-core, kmod-nf-flow
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-scsi-core
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: urngd
+Version: 2020-01-21-c7f7b6b6-1
+Depends: libc, libubox20210516
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-slhc
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-lib-crc-ccitt
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: ppp-mod-pppoe
+Version: 2.4.8.git-2020-10-03-3
+Depends: libc, kmod-pppoe
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+
+Package: kmod-ipt-nat
+Version: 5.4.154-1
+Depends: kernel (= 5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-ipt-core, kmod-nf-nat
+Status: install user installed
+Architecture: arm_cortex-a9_neon
+Installed-Time: 1635066095
+

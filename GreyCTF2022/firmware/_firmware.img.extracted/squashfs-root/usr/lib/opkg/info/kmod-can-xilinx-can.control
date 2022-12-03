@@ -1,0 +1,12 @@
+Package: kmod-can-xilinx-can
+Version: 5.4.154-1
+Depends: kernel (=5.4.154-1-4d98992afebebb8044ab29c1fd438e74), kmod-can
+Source: package/kernel/linux
+SourceName: kmod-can-xilinx-can
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1625225471
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8043
+Description:  Xilinx CAN driver. This driver supports both
+ soft AXI CAN IP and Zynq CANPS IP.

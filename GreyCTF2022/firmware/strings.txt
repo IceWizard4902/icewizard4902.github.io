@@ -1,0 +1,477 @@
+XNLX
+ B0!
+ B0!
+ B0!
+EFI PART|
+UUUU3333
+@ #!
+!1C "
+ n;^
+Qkkbal
+i]Wb
+9a&g
+MGiI
+wn>Jj
+#.zf
++o*7
+fdt_fixup_memory_banks
+part_get_info_efi
+spl_register_fat_device
+is_gpt_valid
+alloc_read_gpt_entries
+spl_load_image_fat
+is_pte_valid
+spl_load_image_fat_os
+fdt_find_or_add_subnode
+sdhci_reset
+sdhci_transfer_data
+sdhci_send_command
+sdhci_set_clock
+sdhci_init
+sdhci_setup_cfg
+(((((
+AAAAAA
+BBBBBB
+xlnx,device_id
+xlnx,mio_bank
+no-1-8-v
+failed to get clock
+failed to get rate
+failed to enable clock
+%s.%s
+Debug uart enabled
+Trying to boot from %s
+SPL: Unsupported Boot Device!
+SPL: failed to boot from all boot devices
+clock-div
+clock-mult
+clock-frequency
+#clock-cells
+assigned-clock-parents
+assigned-clock-rates
+assigned-clocks
+0123456789ABCDEF/clocks
+/firmware
+resetting ...
+Error: FAT sector size mismatch (fs=%hu, dev=%lu)
+Error: FAT cluster size not set
+Error: FAT cluster size too big (cs=%u, max=%u)
+** Partition %d not valid on device %d **
+#address-cells
+%s: %s: %s
+%s: num banks %d exceeds hardcoded limit %d. Recompile with higher MEMORY_BANKS_MAX?
+device_type
+WARNING: could not set %s %s.
+/aliases
+linux,phandle
+#size-cells
+<unknown error>
+<no error>
+<valid offset/length>
+/chosen
+/config
+status
+okay
+Missing DTB
+/memory
+Error reading cluster
+Invalid FAT entry
+MMC Device %d not found
+Error: Invalid FAT entry: 0x%08x
+### ERROR ### Please RESET the board ###
+0123456789abcdef
+%s: Invalid Argument(s)
+*** ERROR: Can't read MBR header ***
+*** ERROR: Can't read GPT header ***
+%s: ERROR: Can't allocate %#lX bytes for GPT Entries
+*** ERROR: Can't read GPT Entries ***
+GPT: Failed to allocate memory for PTE
+compatible
+Macronix Quad bit not set
+mmc_blk
+MMC: block number 0x%lx exceeds max(0x%lx)
+mmc fail to send stop cmd
+Card did not respond to voltage select!
+%s - probe failed: %d
+mmc_load_image_raw_sector: mmc block read error
+Status Error: 0x%08x
+Timeout waiting card ready
+MMC: no card present
+unable to select a mode
+No ext_csd found!
+Select HS400 failed %d
+Man %06x Snr %04x%04x
+%c%c%c%c%c%c
+%d.%d
+#(-27<FP%s: *** ERROR: Invalid GPT ***
+%s: *** ERROR: Invalid Backup GPT ***
+%s: ***        Using Backup GPT ***
+%08x-%02x
+%s%c%d
+U-Boot SPL 2019.07 (Oct 24 2021 - 09:01:35 +0000)
+ Extd
+ Boot
+** Can't read partition table on %d:%lu **
+bad MBR sector signature 0x%02x%02x
+%3d	%-10lu	%-10lu	%08x-%02x	%02x%s%s
+FAT32   
+FAT12   
+FAT16   
+%s: Aligned buffer alloc failed!!!
+%s: Reset 0x%x never completed.
+%s: MMC: %d busy 
+timeout increasing to: %u ms.
+timeout.
+%s: Timeout for status update!
+%s: Transfer data timeout
+%s: Timeout to wait cmd & data inhibit
+%s: Internal clock never stabilised.
+%s: Hardware doesn't specify base clock frequency
+stdout-path
+console
+No serial driver found
+ranges
+spi_flash@%d:%d
+SF: Erase offset/length not multiple of erase size
+SF: Failed to set up slave
+Invalid bus %d (err=%d)
+Warning: SPI speed fallback to %u kHz
+Invalid chip select %d:%d (err=%d)
+unrecognized JEDEC id bytes: %02x, %02x, %02x
+enabling reset hack; may not recover from unexpected reboots
+flash operation timed out
+spi-max-frequency
+Cannot set speed (err=%d)
+Cannot set mode (err=%d)
+spi-cpol
+spi-cpha
+spi-cs-high
+spi-3wire
+spi-half-duplex
+spi-tx-bus-width
+spi-rx-bus-width
+qspi boot
+mmc boot
+Unsupported boot mode selected
+fdt_root: %s
+SPL: fdt_shrink_to_minimum err - %d
+SPL: arch_fixup_fdt err - %d
+%s: fat register err - %d
+%s: error reading image %s, err - %d
+system.dtb
+uImage
+spl: unsupported mmc boot device.
+spl: could not initialize mmc. error: %d
+spl: mmc init failed with error: %d
+spl: mmc partition switch failed
+mmc_load_image_raw_os: mmc block read error
+Expected Linux image is not found. Trying to start U-boot
+u-boot.img
+spl: mmc: wrong boot mode
+spl: could not find mmc device %d. error: %d
+Linux
+U-Boot
+SPI probe failed.
+u-boot,spl-payload-offset
+MMC2_2
+MMC2
+MMC1
+FDT_ERR_NOTFOUND
+FDT_ERR_EXISTS
+FDT_ERR_NOSPACE
+FDT_ERR_BADOFFSET
+FDT_ERR_BADPATH
+FDT_ERR_BADPHANDLE
+FDT_ERR_BADSTATE
+FDT_ERR_TRUNCATED
+FDT_ERR_BADMAGIC
+FDT_ERR_BADVERSION
+FDT_ERR_BADSTRUCTURE
+FDT_ERR_BADLAYOUT
+FDT_ERR_INTERNAL
+FDT_ERR_BADNCELLS
+FDT_ERR_BADVALUE
+FDT_ERR_BADOVERLAY
+FDT_ERR_NOPHANDLES
+<none>
+nvidia,tegra20-emc
+nvidia,tegra20-emc-table
+nvidia,tegra20-nand
+nvidia,tegra124-xusb-padctl
+nvidia,tegra210-xusb-padctl
+smsc,lan9215
+samsung,exynos-sromc
+samsung,exynos-usb-phy
+samsung,exynos5250-usb3-phy
+samsung,exynos-tmu
+samsung,exynos-mipi-dsi
+samsung,exynos-dwmmc
+jedec,spi-nor
+samsung,sysmmu-v3.3
+intel,microcode
+intel,quark-mrc
+altr,socfpga-stmmac
+altr,socfpga-dw-mshc
+snps,dwc2
+intel,baytrail-fsp
+intel,baytrail-fsp-mdp
+intel,ivybridge-fsp
+allwinner,sun4i-a10-nand
+altr,clk-mgr
+pinctrl-single
+altr,socfpga-hps2fpga-bridge
+altr,socfpga-lwhps2fpga-bridge
+altr,socfpga-fpga2hps-bridge
+altr,socfpga-fpga2sdram0-bridge
+altr,socfpga-fpga2sdram1-bridge
+altr,socfpga-fpga2sdram2-bridge
+altr,socfpga-a10-fpga-mgr
+altr,socfpga-a10-noc
+altr,socfpga-a10-clk-init
+usbd
+docd
+mmcsd
+fixed_rate_clock
+fixed-clock
+fixed_factor_clock
+fixed-factor-clock
+zynq_clk
+xlnx,ps7-clkc
+root
+root_driver
+generic_simple_bus
+simple-bus
+simple-mfd
+arasan_sdhci
+arasan,sdhci-8.9a
+serial
+arm_dcc
+arm,dcc
+serial_zynq
+xlnx,xuartps
+cdns,uart-r1p8
+cdns,uart-r1p12
+spi_flash
+spi_flash_std
+is25lq040b
+is25lp032
+is25lp064
+is25lp128
+is25lp256
+is25wp032
+is25wp064
+is25wp128
+mx25l2005a
+mx25l4005a
+mx25l8005
+mx25l1606e
+mx25l3205d
+mx25l6405d
+mx25u2033e
+mx25u1635e
+mx25u6435f
+mx25l12805d
+mx25l12855e
+mx25l25635e
+mx25u25635f
+mx25l25655e
+mx66l51235l
+mx66u51235f
+mx66u2g45g
+mx66l1g45g
+mx25l1633e
+n25q016a
+n25q032
+n25q032a
+n25q064
+n25q064a
+n25q128a11
+n25q128a13
+n25q256a
+n25q256ax1
+n25q512a
+n25q512ax3
+n25q00
+n25q00a
+mt25qu02g
+s25sl032p
+s25sl064p
+s25fl256s0
+s25fl256s1
+s25fl512s
+s25fl512s_256k
+s25fl512s_64k
+s25fl512s_512k
+s25sl12800
+s25sl12801
+s25fl128s
+s25fl129p0
+s25fl129p1
+s25sl008a
+s25sl016a
+s25sl032a
+s25sl064a
+s25fl116k
+s25fl164k
+s25fl208k
+s25fl064l
+s25fl128l
+m25p10
+m25p20
+m25p40
+m25p80
+m25p16
+m25p32
+m25p64
+m25p128
+m25pe16
+m25px16
+m25px64
+w25p80
+w25p16
+w25p32
+w25x05
+w25x40
+w25x16
+w25q16dw
+w25x32
+w25q20cl
+w25q20bw
+w25q20ew
+w25q32
+w25q32dw
+w25q32jv
+w25x64
+w25q64dw
+w25q64jv
+w25q128fw
+w25q128jv
+w25q256fw
+w25q256jw
+w25q80
+w25q80bl
+w25q16cl
+w25q64cv
+w25q128
+w25q256
+spi_generic_drv
+spi_generic
+zynq_qspi
+xlnx,zynq-qspi-1.0
+scsi
+atapi
+sata
+host
+nvme
+virtio
+<NULL>
+FAT32
+%02X
+GUID Partition Table Entry Array CRC is wrong
+%s: 0x%x != 0x%x
+GUID Partition Table Header
+%s signature is wrong: 0x%llX != 0x%llX
+%s CRC is wrong: 0x%x != 0x%x
+GPT: my_lba incorrect: %llX != %lx
+GPT: first_usable_lba incorrect: %llX > %lx
+GPT: last_usable_lba incorrect: %llX > %lx
+ps-clk-frequency
+zynq_qspi_irq_poll: Timeout!
+r('$`
+r('$`
+xlnx,zynq-zc702
+xlnx,zynq-7000
+&Xilinx ZC702 board
+amba
+simple-bus
+serial@e0001000
+xlnx,xuartps
+cdns,uart-r1p8
+3okay
+Auart_clk
+pclk
+spi@e000d000
+Aref_clk
+pclk
+xlnx,zynq-qspi-1.0
+3okay
+mmc@e0100000
+arasan,sdhci-8.9a
+3okay
+Aclk_xin
+clk_ahb
+slcr@f8000000
+xlnx,zynq-slcr
+syscon
+simple-mfd
+clkc@100
+xlnx,ps7-clkc
+rarmpll
+ddrpll
+iopll
+cpu_6or4x
+cpu_3or2x
+cpu_2x
+cpu_1x
+ddr2x
+ddr3x
+lqspi
+pcap
+gem0
+gem1
+fclk0
+fclk1
+fclk2
+fclk3
+can0
+can1
+sdio0
+sdio1
+uart0
+uart1
+spi0
+spi1
+usb0_aper
+usb1_aper
+gem0_aper
+gem1_aper
+sdio0_aper
+sdio1_aper
+spi0_aper
+spi1_aper
+can0_aper
+can1_aper
+i2c0_aper
+i2c1_aper
+uart0_aper
+uart1_aper
+gpio_aper
+lqspi_aper
+smc_aper
+swdt
+dbg_trc
+dbg_apb
+aliases
+/amba/serial@e0001000
+/amba/spi@e000d000
+/amba/mmc@e0100000
+chosen
+serial0:115200n8
+	#address-cells
+#size-cells
+compatible
+model
+ranges
+status
+clocks
+clock-names
+phandle
+#clock-cells
+fclk-enable
+clock-output-names
+ps-clk-frequency
+serial0
+spi0
+mmc0
+bootargs
+stdout-path

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/game_board" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/margine_top">
+            <ImageView android:id="@id/time_bar_image" android:layout_width="@dimen/clock_width" android:layout_height="@dimen/clock_height" android:layout_marginRight="@dimen/clock_margin_right" android:src="@drawable/time_bar" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/clock_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/time_bar_text" android:layout_width="@dimen/clock_width" android:layout_height="@dimen/clock_height" android:layout_marginRight="@dimen/clock_text_margin_right" android:text="00:60" android:shadowColor="#ff2eaed9" android:shadowDx="4.0" android:shadowDy="4.0" android:shadowRadius="4.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/game_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

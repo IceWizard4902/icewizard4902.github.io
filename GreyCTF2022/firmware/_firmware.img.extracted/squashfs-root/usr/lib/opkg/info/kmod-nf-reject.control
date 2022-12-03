@@ -1,0 +1,11 @@
+Package: kmod-nf-reject
+Version: 5.4.154-1
+Depends: kernel (=5.4.154-1-4d98992afebebb8044ab29c1fd438e74)
+Source: package/kernel/linux
+SourceName: kmod-nf-reject
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1625225471
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2120
+Description:  Netfilter IPv4 reject support

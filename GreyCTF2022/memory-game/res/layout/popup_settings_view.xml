@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left|top" android:orientation="vertical" android:paddingLeft="@dimen/popup_settings_padding_left" android:paddingTop="@dimen/popup_settings_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/sound_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+        <ImageView android:id="@id/sound_image" android:layout_width="wrap_content" android:layout_height="@dimen/popup_settings_sound_image_size" android:layout_marginLeft="5.0dip" android:src="@drawable/button_music_on" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/popup_settings_sound_text_size" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/sound_off_text" android:layout_width="150.0dip" android:layout_height="@dimen/popup_settings_sound_image_size" android:layout_marginLeft="8.0dip" android:text="Sound ON" android:shadowColor="#ff2eaed9" android:shadowDx="4.0" android:shadowDy="4.0" android:shadowRadius="4.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/popup_settings_sound_image_size" android:layout_marginLeft="5.0dip" android:src="@drawable/button_rate" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/popup_settings_sound_text_size" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/rate_text" android:layout_width="150.0dip" android:layout_height="@dimen/popup_settings_sound_image_size" android:layout_marginLeft="8.0dip" android:text="Rate this" android:shadowColor="#ff2eaed9" android:shadowDx="4.0" android:shadowDy="4.0" android:shadowRadius="4.0" />
+    </LinearLayout>
+</LinearLayout>
