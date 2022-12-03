@@ -7,7 +7,7 @@ First ever CTF. Managed to solve a few challenges and learnt a ton!
 | [Baby](./baby) | crypto      |
 |[Block](./block)| crypto |
 |[Cube](./cube)| crypto |
-|[Data Degen](./data-degeneration-challenge)| misc |
+|[Data Degeneration](./data-degeneration-challenge)| misc |
 |[Entry](./entry)| crypto | 
 |[Equation](./equation)| crypto | 
 |[Firmware](./firmware)| misc | 
