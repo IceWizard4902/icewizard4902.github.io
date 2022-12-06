@@ -19,35 +19,36 @@ This result is derived from the fact that the expansion of $$(ap + bq)^n$$, exce
 The task is to solve this system of equations. The aim is to eliminate one of the variables, in this case I choose $$p$$. We can raise the first equation to the power of $$e_2$$ and the second equation to the power of $$e_1$$ 
 
 $$
-c_1^{e_2} \equiv ((2p + 3q)^{e_1})^{e_2} = (2p + 3q)^{{e_1}{e_2}} \mod N
+c_1^{e_2} \equiv ((2p + 3q)^{e_1})^{e_2} = (2p + 3q)^{{e_1} {e_2}} \mod N
 $$
+
 $$
-c_2^{e_1} \equiv ((5p + 7q)^{e_2})^{e_1} = (5p + 7q)^{{e_1}{e_2}} \mod N
+c_2^{e_1} \equiv ((5p + 7q)^{e_2})^{e_1} = (5p + 7q)^{{e_1} {e_2}} \mod N
 $$
 
 From the above result from Newton's binomial expansion, the system of equations now become: 
 
 $$
-c_1^{e_2} \equiv (2p)^{{e_1}{e_2}} + (3q)^{{e_1}{e_2}} \mod N
+c_1^{e_2} \equiv (2p)^{{e_1} {e_2}} + (3q)^{{e_1} {e_2}} \mod N
 $$
 $$
-c_2^{e_1} \equiv (5p)^{{e_1}{e_2}} + (7q)^{{e_1}{e_2}} \mod N
+c_2^{e_1} \equiv (5p)^{{e_1} {e_2}} + (7q)^{{e_1} {e_2}} \mod N
 $$
 
 We want to eliminate $$p$$, hence we can do: 
 
 $$
-5^{{e_1}{e_2}} c_1^{e_2} \equiv 10^{{e_1}{e_2}} p^{{e_1}{e_2}} + 15^{{e_1}{e_2}} q^{{e_1}{e_2}}
+5^{{e_1} {e_2}} c_1^{e_2} \equiv 10^{{e_1} {e_2}} p^{{e_1} {e_2}} + 15^{{e_1} {e_2}} q^{{e_1} {e_2}}
 $$
 
 $$
-2^{{e_1}{e_2}} c_2^{e_1} \equiv 10^{{e_1}{e_2}} p^{{e_1}{e_2}} + 14^{{e_1}{e_2}} q^{{e_1}{e_2}}
+2^{{e_1} {e_2}} c_2^{e_1} \equiv 10^{{e_1}{e_2}} p^{{e_1} {e_2}} + 14^{{e_1} {e_2}} q^{{e_1} {e_2}}
 $$
 
 Subtracting the two equations, we have 
 
 $$
-D = 5^{{e_1}{e_2}} c_1^{e_2} - 2^{{e_1}{e_2}} c_2^{e_1} \equiv 15^{{e_1}{e_2}} q^{{e_1}{e_2}} - 14^{{e_1}{e_2}} q^{{e_1}{e_2}}
+D = 5^{{e_1} {e_2}} c_1^{e_2} - 2^{{e_1} {e_2}} c_2^{e_1} \equiv 15^{{e_1} {e_2}} q^{{e_1} {e_2}} - 14^{{e_1} {e_2}} q^{{e_1} {e_2}}
 $$
 
 Clearly, $q^{{e_1}{e_2}}$ is divisible by $q$. Hence, as $N = pq$, we have $gcd(N, D) = q$.
