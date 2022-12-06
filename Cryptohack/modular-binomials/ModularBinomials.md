@@ -72,5 +72,5 @@ D = (lhs1 * rhs_f1 - lhs2 * rhs_f2) % N
 q = math.gcd(D, N)
 p = N // q 
 
-print(f'crypto{{{p}, {q}}}')
+print('crypto{' + p + ', ' + q + '}')
 ```
