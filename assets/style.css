@@ -10,14 +10,13 @@
   padding: 1em 1em;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 600;
 }
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
-  font-weight: 400;
 }
 
 .phoenix {
