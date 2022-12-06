@@ -42,7 +42,7 @@ $$
 $$
 
 $$
-2^{e_1 \times e_2} c_2^{e_1} \equiv 10^{{e_1}{e_2}} p^{e_1 \times e_2} + 14^{e_1 \times e_2} q^{e_1 \times e_2}
+2^{e_1 \times e_2} c_2^{e_1} \equiv 10^{e_1 \times e_2} p^{e_1 \times e_2} + 14^{e_1 \times e_2} q^{e_1 \times e_2}
 $$
 
 Subtracting the two equations, we have 
@@ -51,7 +51,7 @@ $$
 D = 5^{e_1 \times e_2} c_1^{e_2} - 2^{e_1 \times e_2} c_2^{e_1} \equiv 15^{e_1 \times e_2} q^{e_1 \times e_2} - 14^{e_1 \times e_2} q^{e_1 \times e_2}
 $$
 
-Clearly, $q^{{e_1}{e_2}}$ is divisible by $q$. Hence, as $N = pq$, we have $gcd(N, D) = q$.
+Clearly, $q^{e_1 \times e_2}$ is divisible by $q$. Hence, as $N = pq$, we have $gcd(N, D) = q$.
 
 From $q$, we can obtain $p$ by doing $N / q$. Python implementation of the solution: 
 
