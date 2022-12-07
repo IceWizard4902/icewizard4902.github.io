@@ -1,0 +1,37 @@
+# Modulus Inutilis 
+
+A interesting challenge, we are given the modulus `n`, public exponent `e` and ciphertext `ct`. 
+
+```python
+n = 17258212916191948536348548470938004244269544560039009244721959293554822498047075403658429865201816363311805874117705688359853941515579440852166618074161313773416434156467811969628473425365608002907061241714688204565170146117869742910273064909154666642642308154422770994836108669814632309362483307560217924183202838588431342622551598499747369771295105890359290073146330677383341121242366368309126850094371525078749496850520075015636716490087482193603562501577348571256210991732071282478547626856068209192987351212490642903450263288650415552403935705444809043563866466823492258216747445926536608548665086042098252335883
+e = 3
+ct = 243251053617903760309941844835411292373350655973075480264001352919865180151222189820473358411037759381328642957324889519192337152355302808400638052620580409813222660643570085177957
+```
+
+From this, denote $m$ as the plaintext, we need to solve the equation
+$$
+m^e \equiv ct \mod N
+$$
+
+The above equation is equivalent to: 
+$$
+m ^ e - ct = 0 \mod N
+$$
+
+The idea that I had is to use Coppersmith attack for low-exponent `3`, we can find the solution to the equation quickly.
+
+```python
+R,x = objgen(PolynomialRing(Zmod(n),'x'))
+poly = x ** e - ct
+print(long_to_bytes(int(poly.small_roots()[0])))
+```
+
+A better solution is the astute observation that `e = 3` is pretty small whereas `n` is big, so it is possible that `pow(m,e)` is inferior to `n` so `c`, which is `pow(m,e,n)` would probably simply be `pow(m,e)=pow(m,3)`. Hence, the solution is simply: 
+
+```python
+from gmpy2 import iroot
+print(bytes.fromhex(hex(iroot(c, 3)[0])[2:]))
+```
+
+Note that you have to append the values of `n, e, ct` given for the script.
+
