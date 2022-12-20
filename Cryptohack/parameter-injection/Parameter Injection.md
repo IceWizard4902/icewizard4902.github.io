@@ -1,3 +1,17 @@
+# Parameter Injection
+
+In this challenge, we are acting as the MiTM which will intercept the key exchange messages between Alice and Bob. We are able to modify the `A` and `B` - each of the shared secret by doing `g^a` and `g^b` of Alice and Bob. 
+
+The flag is sent from Alice to Bob, hence we only need to care about the response of the key exchange message from Bob to Alice. Recall that when Bob's secret `B` is sent over to Alice, Alice will do `B^a` on her side, where `a` is the secret of Alice. 
+
+Hence, as `B` is `g^b`, we can set `b = 0`, or `B = 1` and then sent to Alice. The shared secret that Alice obtained is `B ^ 0 = 1`. The code should be similar to the approach below.
+
+My approach is slightly different from this, but the idea is the same. I will try to send the value of Bob's secret to Alice such that I have full information of the shared secret from the secret that Alice sent. I pick a different secret value to send, `b = 1`, and hence the value sent to Alice is `g ^ 1 = g`. The shared secret (note that it is the same for both Alice and Bob) is `g ^ a ^ 1 = g ^ a` - which is the value `A` sent from Alice. This approach is similar, but in my opinion, not as smart as the solution of using `b=0`. 
+
+Hence, we can use `A` as the shared secret for the AES decryption key. 
+
+Python Implementation:
+```python
 from pwn import *
 import json 
 from Crypto.Cipher import AES
@@ -52,3 +66,5 @@ alice_flag = json.loads(alice_flag)
 
 print(decrypt_flag(shared_secret, alice_flag["iv"], alice_flag["encrypted_flag"]))
 io.close()
+
+```

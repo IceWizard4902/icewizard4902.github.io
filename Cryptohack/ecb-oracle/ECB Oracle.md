@@ -1,6 +1,6 @@
 # ECB Oracle
 
-This takes much longer time than I would admit. It is known to me that ECB leads to poor diffusion of the plaintext - the classic example from the Linux penguin used in almost every cryptography book ever. 
+This takes much longer time than I would  like to admit. It is known to me that ECB leads to poor diffusion of the plaintext - the classic example from the Linux penguin used in almost every cryptography book ever. 
 
 The attack, however, is not exactly clear to me at the beginning. With fuzzy memory of how AES in ECB mode, I was thinking of a scheme that `xor` a plaintext block with a key block to generate the corresponding ciphertext block. We can immediately leak the value of the key by using a input block of all `0`s. However, this is simply not true, as checking out the specification of ECB should easily disprove this model. 
 
