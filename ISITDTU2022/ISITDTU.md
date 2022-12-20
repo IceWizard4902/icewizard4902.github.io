@@ -7,3 +7,8 @@ My first non-NUS CTF! I was mostly carried by the insane people @ [NUS Greyhats]
 |[Find](./find)| OSINT | 
 |[dceased-xxiv](./dceased-xxiv) | misc |
 
+For the finals, I managed to solve one crypto challenge using the techniques from my writeups in the Cryptohack journey.
+
+| Challenge                        | Category |
+|----------------------------------|----------|
+|[sussy-rsa](./sussy-rsa)| crypto |
