@@ -37,3 +37,8 @@ A famous platform for practicing Cryptography related topics. I did this for the
 |[Blinding Light](./blinding-light)|RSA - Signatures|
 |[Vote for Pedro](./vote-for-pedro)|RSA - Signatures|
 |[Let's Decrypt Again](./lets-decrypt-again)|RSA - Signatures|
+|[Triple DES](./triple-des)|Symmetric - Stream Ciphers|
+|[CTRIME](./ctrime)|Symmetric - Stream Ciphers|
+|[Logon Zero](./logon-zero)|Symmetric - Stream Ciphers|
+|[Stream of Consciousness](./stream-of-consciousness)|Symmetric - Stream Ciphers|
+|[Dancing Queen](./dancing-queen)|Symmetric - Stream Ciphers|

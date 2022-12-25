@@ -209,6 +209,87 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 
 /* CSS Document */
 
@@ -1888,9 +1969,164 @@ file-node-title-name-part {
 
 
 
-</style><title>Cryptohack</title>
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+
+g[data-mml-node="xypic"] path {
+  stroke-width: inherit;
+}
+
+.MathJax g[data-mml-node="xypic"] path {
+  stroke-width: inherit;
+}
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+							stroke-width: 0;
+						}
+</style><title>Logon Zero</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='cryptohack'><span>Cryptohack</span></h1><p><span>A famous platform for practicing Cryptography related topics. I did this for the practice of ISITDTU Finals 2022.</span></p><figure><table><thead><tr><th><span>Challenge</span></th><th><span>Category</span></th></tr></thead><tbody><tr><td><a href='./legendre-symbol'><span>Legendre Symbol</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./tonelli-shanks'><span>Tonelli-Shanks</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./adrien-signs'><span>Adrien Signs</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./modular-binomials'><span>Modular Binomials</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./ecb-oracle'><span>ECB Oracle</span></a></td><td><span>Symmetric Cryptography</span></td></tr><tr><td><a href='./symmetry'><span>Symmetry</span></a></td><td><span>Symmetric Cryptography</span></td></tr><tr><td><a href='./bean-counter'><span>Bean Counter</span></a></td><td><span>Symmetric Cryptography</span></td></tr><tr><td><a href='./many-prime'><span>Many Prime</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./modulus-inutilis'><span>Modulus Inutilis</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./df-starter-2'><span>Diffie-Hellman Starter 2</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./parameter-injection'><span>Parameter Injection</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./export-grade'><span>Export Grade</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./smooth-criminal'><span>Smooth Criminal</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./curveball'><span>Curveball</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./prosign-3'><span>ProSign 3</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./moving-problems'><span>Moving Problems</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./transparency'><span>Transparency</span></a></td><td><span>General</span></td></tr><tr><td><a href='./lemur-xor'><span>Lemur Xor</span></a></td><td><span>General</span></td></tr><tr><td><a href='./broken-rsa'><span>Broken RSA</span></a></td><td><span>Mathematics - RSA</span></td></tr><tr><td><a href='./everything-is-big'><span>Everything is Big</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./crossed-wires'><span>Crossed Wires</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./everything-is-big-2'><span>Everything is still Big</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./endless-emails'><span>Endless Emails</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./infinite-descent'><span>Infinite Descent</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./marins-secret'><span>Marin&#39;s Secret</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./fast-primes'><span>Fast Primes</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./ron-wrong-whit-right'><span>Ron was Wrong, Whit is Right</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./rsa-backdoor-viability'><span>RSA Backdoor Viability</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./null-or-never'><span>Null or Never</span></a></td><td><span>RSA - Paddding</span></td></tr><tr><td><a href='./bespoke-padding'><span>Bespoke Padding</span></a></td><td><span>RSA - Padding</span></td></tr><tr><td><a href='./blinding-light'><span>Blinding Light</span></a></td><td><span>RSA - Signatures</span></td></tr><tr><td><a href='./vote-for-pedro'><span>Vote for Pedro</span></a></td><td><span>RSA - Signatures</span></td></tr><tr><td><a href='./lets-decrypt-again'><span>Let&#39;s Decrypt Again</span></a></td><td><span>RSA - Signatures</span></td></tr><tr><td><a href='./triple-des'><span>Triple DES</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./ctrime'><span>CTRIME</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./logon-zero'><span>Logon Zero</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./stream-of-consciousness'><span>Stream of Consciousness</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./dancing-queen'><span>Dancing Queen</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr></tbody></table></figure></div></div>
+<div id='write'  class=''><h1 id='logon-zero'><span>Logon Zero</span></h1><p><span>This challenge documents the ZeroLogon vulnerability, which is a critical vulnerability originating from a cryptographic authentication protocol failure in Microsoft Active Directory.</span></p><p><span>There is a </span><a href='https://www.secura.com/uploads/whitepapers/Zerologon.pdf'><span>ZeroLogon whitepaper</span></a><span>, which is useful in solving this challenge. The underlying encryption scheme in both the challenge and the Microsoft Active Directory is the </span><code>AES-CFB8</code><span>. The encryption method should be clearly demonstrated in the paper. </span></p><p><span>In the challenge, the </span><code>encrypt</code><span> method is not in use and only serve as a red herring. Only </span><code>decrypt</code><span> is used in the challenge, which allows us control over the IV and the ciphertext. The paper takes advantage of the fact that </span><code>AES-CFB8</code><span> uses a fixed IV of all zeros, hence they use a message of all zeros as well. </span></p><p><span>Since the password check is the following, we cannot specify a password of all null bytes as it cannot be represented in ASCII form for the </span><code>encode()</code><span> call.</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="python"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 18.5188px; left: 8.20001px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">if</span> <span class="cm-variable">your_password</span>.<span class="cm-property">encode</span>() <span class="cm-operator">==</span> <span class="cm-variable-2">self</span>.<span class="cm-property">password</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">self</span>.<span class="cm-property">exit</span> <span class="cm-operator">=</span> <span class="cm-keyword">True</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> {<span class="cm-string">'msg'</span>: <span class="cm-string">'Welcome admin, flag: '</span> <span class="cm-operator">+</span> <span class="cm-variable">FLAG</span>}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 69px;"></div><div class="CodeMirror-gutters" style="display: none; height: 69px;"></div></div></div></pre><p><span>We can still take the idea of the paper, by specifying both the IV and the ciphertext with the same value, we have a </span><mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.395ex" height="2.773ex" role="img" focusable="false" viewBox="0 -864.9 1500.7 1225.5" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.816ex;"><defs><path id="MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-4-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path><path id="MJX-4-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(573.6,394) scale(0.707)"><use data-c="31" xlink:href="#MJX-4-TEX-N-31"></use></g><g data-mml-node="mn" transform="translate(220,-345) scale(0.707)"><use data-c="32" xlink:href="#MJX-4-TEX-N-32"></use><use data-c="35" xlink:href="#MJX-4-TEX-N-35" transform="translate(500,0)"></use><use data-c="36" xlink:href="#MJX-4-TEX-N-36" transform="translate(1000,0)"></use></g><rect width="1260.7" height="60" x="120" y="220"></rect></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>256</mn></mfrac></math></mjx-assistive-mml></mjx-container><script type="math/tex">\frac{1}{256}</script><span> chance for the first byte of the ciphertext produced by the </span><code>AES</code><span> to be the null byte. The plaintext will thus be the same as the ciphertext.</span></p><p><span>Hence, the strategy is simple. First we try to reset the password (as we obviously don&#39;t know the randomized password), then try the password that is the same as the ciphertext, then if we can&#39;t log in, we reset the connection to make the decryption use a different random key and try our luck again. </span></p><p><span>The script will take a while and some tries to run, also note that the last 4 character of the new password is trimmed.</span></p><p><span>Python Implementation</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded md-focus" spellcheck="false" lang="python" style="break-inside: unset;"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 18.5188px; left: 8.20001px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">from</span> <span class="cm-variable">pwn</span> <span class="cm-keyword">import</span> <span class="cm-operator">*</span> </span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">import</span> <span class="cm-variable">json</span> </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">io</span> <span class="cm-operator">=</span> <span class="cm-variable">remote</span>(<span class="cm-string">'socket.cryptohack.org'</span>, <span class="cm-number">13399</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">io</span>.<span class="cm-property">recvline</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">iv</span> <span class="cm-operator">=</span> <span class="cm-string">b'a'</span> <span class="cm-operator">*</span> <span class="cm-number">16</span> </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">password</span> <span class="cm-operator">=</span> <span class="cm-string">"a"</span> <span class="cm-operator">*</span> <span class="cm-number">16</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">ct</span> <span class="cm-operator">=</span> <span class="cm-variable">iv</span> <span class="cm-operator">+</span> <span class="cm-variable">password</span>.<span class="cm-property">encode</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">reset_conn</span> <span class="cm-operator">=</span> <span class="cm-builtin">dict</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">reset_conn</span>[<span class="cm-string">'option'</span>] <span class="cm-operator">=</span> <span class="cm-string">'reset_connection'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">reset_pass</span> <span class="cm-operator">=</span> <span class="cm-builtin">dict</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">reset_pass</span>[<span class="cm-string">'option'</span>] <span class="cm-operator">=</span> <span class="cm-string">'reset_password'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">reset_pass</span>[<span class="cm-string">'token'</span>] <span class="cm-operator">=</span> <span class="cm-variable">ct</span>.<span class="cm-property">hex</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">auth</span> <span class="cm-operator">=</span> <span class="cm-builtin">dict</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">auth</span>[<span class="cm-string">'option'</span>] <span class="cm-operator">=</span> <span class="cm-string">'authenticate'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">auth</span>[<span class="cm-string">'password'</span>] <span class="cm-operator">=</span> <span class="cm-string">'a'</span> <span class="cm-operator">*</span> <span class="cm-number">12</span> </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">while</span> <span class="cm-keyword">True</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">io</span>.<span class="cm-property">sendline</span>(<span class="cm-variable">json</span>.<span class="cm-property">dumps</span>(<span class="cm-variable">reset_pass</span>).<span class="cm-property">encode</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">io</span>.<span class="cm-property">recvline</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">io</span>.<span class="cm-property">sendline</span>(<span class="cm-variable">json</span>.<span class="cm-property">dumps</span>(<span class="cm-variable">auth</span>).<span class="cm-property">encode</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">status</span> <span class="cm-operator">=</span> <span class="cm-variable">json</span>.<span class="cm-property">loads</span>(<span class="cm-variable">io</span>.<span class="cm-property">recvline</span>().<span class="cm-property">decode</span>())[<span class="cm-string">'msg'</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">if</span> <span class="cm-string">"flag"</span> <span class="cm-keyword">in</span> <span class="cm-variable">status</span>: </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-builtin">print</span>(<span class="cm-variable">status</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">break</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">io</span>.<span class="cm-property">sendline</span>(<span class="cm-variable">json</span>.<span class="cm-property">dumps</span>(<span class="cm-variable">reset_conn</span>).<span class="cm-property">encode</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">io</span>.<span class="cm-property">recvline</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 760px;"></div><div class="CodeMirror-gutters" style="display: none; height: 760px;"></div></div></div></pre></div></div>
 </body>
 </html>
