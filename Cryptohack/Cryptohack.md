@@ -42,3 +42,9 @@ A famous platform for practicing Cryptography related topics. I did this for the
 |[Logon Zero](./logon-zero)|Symmetric - Stream Ciphers|
 |[Stream of Consciousness](./stream-of-consciousness)|Symmetric - Stream Ciphers|
 |[Dancing Queen](./dancing-queen)|Symmetric - Stream Ciphers|
+|[Oh SNAP](./oh-snap)|Symmetric - Stream Ciphers|
+|[Paper Plane](./paper-plane)|Symmetric - Authenticated Encryption|
+|[Static Client](./static-client)|Diffie-Hellman - MITM|
+|[Additive](./additive)|Diffie-Hellman - Group Theory|
+|[Script Kiddie](./script-kiddie)|Diffie-Hellman - Misc|
+|[The Matrix](./the-matrix)|Diffie-Hellman - Misc|
