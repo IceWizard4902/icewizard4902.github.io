@@ -109,7 +109,7 @@ Indeed, if the elements $a$ are of order divides `phi_coprime`, or $l$, then $a 
 The set of the solutions indeed satisfy the `assert` line because
 
 $$
-root ^ e = (i ^ l) ^ e = i ^ {le} = i ^ {lkg} = i ^ {k\phi(n)} = (i ^ \phi(n)) ^ k = 1 ^ k = 1 \mod n
+root ^ e = (i ^ l) ^ e = i ^ {le} = i ^ {lkg} = i ^ {k\phi(n)} = (i ^ {\phi(n)}) ^ k = 1 ^ k = 1 \mod n
 $$
 
 `d = inverse_mod(e, phi_coprime)`, or $ed = 1 + zl$ for some $z$.

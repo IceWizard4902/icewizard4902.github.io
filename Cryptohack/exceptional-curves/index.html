@@ -209,6 +209,87 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 
 /* CSS Document */
 
@@ -1888,9 +1969,172 @@ file-node-title-name-part {
 
 
 
-</style><title>Cryptohack</title>
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+
+g[data-mml-node="xypic"] path {
+  stroke-width: inherit;
+}
+
+.MathJax g[data-mml-node="xypic"] path {
+  stroke-width: inherit;
+}
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+							stroke-width: 0;
+						}
+</style><title>Exceptional Curves</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='cryptohack'><span>Cryptohack</span></h1><p><span>A famous platform for practicing Cryptography related topics. I did this for the practice of ISITDTU Finals 2022.</span></p><figure><table><thead><tr><th><span>Challenge</span></th><th><span>Category</span></th></tr></thead><tbody><tr><td><a href='./legendre-symbol'><span>Legendre Symbol</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./tonelli-shanks'><span>Tonelli-Shanks</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./adrien-signs'><span>Adrien Signs</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./modular-binomials'><span>Modular Binomials</span></a></td><td><span>Modular Arithmetic</span></td></tr><tr><td><a href='./ecb-oracle'><span>ECB Oracle</span></a></td><td><span>Symmetric Cryptography</span></td></tr><tr><td><a href='./symmetry'><span>Symmetry</span></a></td><td><span>Symmetric Cryptography</span></td></tr><tr><td><a href='./bean-counter'><span>Bean Counter</span></a></td><td><span>Symmetric Cryptography</span></td></tr><tr><td><a href='./many-prime'><span>Many Prime</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./modulus-inutilis'><span>Modulus Inutilis</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./df-starter-2'><span>Diffie-Hellman Starter 2</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./parameter-injection'><span>Parameter Injection</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./export-grade'><span>Export Grade</span></a></td><td><span>Public-Key Cryptography</span></td></tr><tr><td><a href='./smooth-criminal'><span>Smooth Criminal</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./curveball'><span>Curveball</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./prosign-3'><span>ProSign 3</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./moving-problems'><span>Moving Problems</span></a></td><td><span>Elliptic Curves</span></td></tr><tr><td><a href='./transparency'><span>Transparency</span></a></td><td><span>General</span></td></tr><tr><td><a href='./lemur-xor'><span>Lemur Xor</span></a></td><td><span>General</span></td></tr><tr><td><a href='./broken-rsa'><span>Broken RSA</span></a></td><td><span>Mathematics - RSA</span></td></tr><tr><td><a href='./everything-is-big'><span>Everything is Big</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./crossed-wires'><span>Crossed Wires</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./everything-is-big-2'><span>Everything is still Big</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./endless-emails'><span>Endless Emails</span></a></td><td><span>RSA - Public Exponent</span></td></tr><tr><td><a href='./infinite-descent'><span>Infinite Descent</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./marins-secret'><span>Marin&#39;s Secret</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./fast-primes'><span>Fast Primes</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./ron-wrong-whit-right'><span>Ron was Wrong, Whit is Right</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./rsa-backdoor-viability'><span>RSA Backdoor Viability</span></a></td><td><span>RSA - Primes</span></td></tr><tr><td><a href='./null-or-never'><span>Null or Never</span></a></td><td><span>RSA - Paddding</span></td></tr><tr><td><a href='./bespoke-padding'><span>Bespoke Padding</span></a></td><td><span>RSA - Padding</span></td></tr><tr><td><a href='./blinding-light'><span>Blinding Light</span></a></td><td><span>RSA - Signatures</span></td></tr><tr><td><a href='./vote-for-pedro'><span>Vote for Pedro</span></a></td><td><span>RSA - Signatures</span></td></tr><tr><td><a href='./lets-decrypt-again'><span>Let&#39;s Decrypt Again</span></a></td><td><span>RSA - Signatures</span></td></tr><tr><td><a href='./triple-des'><span>Triple DES</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./ctrime'><span>CTRIME</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./logon-zero'><span>Logon Zero</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./stream-of-consciousness'><span>Stream of Consciousness</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./dancing-queen'><span>Dancing Queen</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./oh-snap'><span>Oh SNAP</span></a></td><td><span>Symmetric - Stream Ciphers</span></td></tr><tr><td><a href='./paper-plane'><span>Paper Plane</span></a></td><td><span>Symmetric - Authenticated Encryption</span></td></tr><tr><td><a href='./static-client'><span>Static Client</span></a></td><td><span>Diffie-Hellman - MITM</span></td></tr><tr><td><a href='./additive'><span>Additive</span></a></td><td><span>Diffie-Hellman - Group Theory</span></td></tr><tr><td><a href='./script-kiddie'><span>Script Kiddie</span></a></td><td><span>Diffie-Hellman - Misc</span></td></tr><tr><td><a href='./the-matrix'><span>The Matrix</span></a></td><td><span>Diffie-Hellman - Misc</span></td></tr><tr><td><a href='./the-matrix-reloaded'><span>The Matrix Revolution</span></a></td><td><span>Diffie-Hellman - Misc</span></td></tr><tr><td><a href='./no-way-back-home'><span>No Way Back Home</span></a></td><td><span>Mathematics - Brainteasers</span></td></tr><tr><td><a href='./ellipse-curve-cryptography'><span>Ellipse Curve Cryptography</span></a></td><td><span>Mathematics - Brainteasers</span></td></tr><tr><td><a href='./unencryptable'><span>Unencryptable</span></a></td><td><span>Mathematics - Brainteasers</span></td></tr><tr><td><a href='./roll-your-own'><span>Roll Your Own</span></a></td><td><span>Mathematics - Brainteasers</span></td></tr><tr><td><a href='./primes-and-prejudice'><span>Primes and Prejudice</span></a></td><td><span>Mathematics - Brainteasers</span></td></tr><tr><td><a href='./find-the-lattice'><span>Find The Lattice</span></a></td><td><span>Mathematics - Lattices</span></td></tr><tr><td><a href='./backpack-cryptography'><span>Backpack Cryptography</span></a></td><td><span>Mathematics - Lattices</span></td></tr><tr><td><a href='./cofactor-cofantasy'><span>Cofactor Cofantasy</span></a></td><td><span>Mathematics - Brainteasers</span></td></tr><tr><td><a href='./double-and-broken'><span>Double and Broken</span></a></td><td><span>Elliptic Curves - Side Channels</span></td></tr><tr><td><a href='./digestive'><span>Digestive</span></a></td><td><span>Elliptic Curves - Signatures</span></td></tr><tr><td><a href='./double-and-broken'><span>Double And Broken</span></a></td><td><span>Elliptic Curves - Parameter Choice</span></td></tr></tbody></table></figure></div></div>
+<div id='write'  class=''><h1 id='exceptional-curves'><span>Exceptional Curves</span></h1><p><span>An elliptic curve </span><mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1.729ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 764 680" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: 0px;"><defs><path id="MJX-14-TEX-I-1D438" d="M492 213Q472 213 472 226Q472 230 477 250T482 285Q482 316 461 323T364 330H312Q311 328 277 192T243 52Q243 48 254 48T334 46Q428 46 458 48T518 61Q567 77 599 117T670 248Q680 270 683 272Q690 274 698 274Q718 274 718 261Q613 7 608 2Q605 0 322 0H133Q31 0 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H757Q764 676 764 669Q764 664 751 557T737 447Q735 440 717 440H705Q698 445 698 453L701 476Q704 500 704 528Q704 558 697 578T678 609T643 625T596 632T532 634H485Q397 633 392 631Q388 629 386 622Q385 619 355 499T324 377Q347 376 372 376H398Q464 376 489 391T534 472Q538 488 540 490T557 493Q562 493 565 493T570 492T572 491T574 487T577 483L544 351Q511 218 508 216Q505 213 492 213Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D438" xlink:href="#MJX-14-TEX-I-1D438"></use></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi></math></mjx-assistive-mml></mjx-container><script type="math/tex">E</script><span> defined over </span><mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="2.447ex" height="2.188ex" role="img" focusable="false" viewBox="0 -680 1081.7 967.2" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.65ex;"><defs><path id="MJX-15-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path><path id="MJX-15-TEX-I-1D45D" d="M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-15-TEX-I-1D439"></use></g><g data-mml-node="mi" transform="translate(676,-150) scale(0.707)"><use data-c="1D45D" xlink:href="#MJX-15-TEX-I-1D45D"></use></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>F</mi><mi>p</mi></msub></math></mjx-assistive-mml></mjx-container><script type="math/tex">F_p</script><span> whose cardinality (or order) is also </span><mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1.138ex" height="1.439ex" role="img" focusable="false" viewBox="0 -442 503 636" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.439ex;"><defs><path id="MJX-16-TEX-I-1D45D" d="M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D45D" xlink:href="#MJX-16-TEX-I-1D45D"></use></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>p</mi></math></mjx-assistive-mml></mjx-container><script type="math/tex">p</script><span> is an anomalous curve, and the discrete logarithm becomes trivial. We can employ </span><a href='https://web.archive.org/web/20170511043406/http://www.hpl.hp.com/techreports/97/HPL-97-128.html'><span>Smart&#39;s attack</span></a><span>, which allows us to perform the discrete log of the curve in linear time. </span></p><p><a href='https://wstein.org/edu/2010/414/projects/novotney.pdf'><span>This paper by Novotney</span></a><span> goes over the details of why the attack works. At the time of writing, I wish I understand what&#39;s in the paper - some very topics into group theory. </span><a href='https://crypto.stackexchange.com/questions/70454/why-smarts-attack-doesnt-work-on-this-ecdlp'><span>This Crypto StackExchange post</span></a><span> provides implementation for this particular attack. </span></p><p><span>The choice of the challenge name leads to some other unrelated(?) attack, and I have to dig a bit through the Cryptohack Discord to find a clue for this challenge. Kudos to </span><code>ariana</code><span> for having some discussions about this attack, after that I got some better keywords to search for on Google! Also, great props to this writeup by </span><a href='https://ctftime.org/writeup/30559'><span>Awesome10billion</span></a><span> that initially provided me a script to solve this challenge.</span></p><p><span>Sage Implementation: </span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="python" style="break-inside: unset;"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 18.5188px; left: 8.20001px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">from</span> <span class="cm-variable">Crypto</span>.<span class="cm-property">Cipher</span> <span class="cm-keyword">import</span> <span class="cm-variable">AES</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">from</span> <span class="cm-variable">Crypto</span>.<span class="cm-property">Util</span>.<span class="cm-property">Padding</span> <span class="cm-keyword">import</span> <span class="cm-variable">unpad</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">from</span> <span class="cm-variable">random</span> <span class="cm-keyword">import</span> <span class="cm-variable">randint</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">import</span> <span class="cm-variable">hashlib</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">shared_secret</span>(<span class="cm-variable">public_key</span>, <span class="cm-variable">private_key</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">S</span> <span class="cm-operator">=</span> <span class="cm-variable">public_key</span> <span class="cm-operator">*</span> <span class="cm-variable">private_key</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> <span class="cm-variable">S</span>.<span class="cm-property">xy</span>()[<span class="cm-number">0</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Curve params</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">p</span> <span class="cm-operator">=</span> <span class="cm-number">0xa15c4fb663a578d8b2496d3151a946119ee42695e18e13e90600192b1d0abdbb6f787f90c8d102ff88e284dd4526f5f6b6c980bf88f1d0490714b67e8a2a2b77</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">a</span> <span class="cm-operator">=</span> <span class="cm-number">0x5e009506fcc7eff573bc960d88638fe25e76a9b6c7caeea072a27dcd1fa46abb15b7b6210cf90caba982893ee2779669bac06e267013486b22ff3e24abae2d42</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">b</span> <span class="cm-operator">=</span> <span class="cm-number">0x2ce7d1ca4493b0977f088f6d30d9241f8048fdea112cc385b793bce953998caae680864a7d3aa437ea3ffd1441ca3fb352b0b710bb3f053e980e503be9a7fece</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Define curve</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">E</span> <span class="cm-operator">=</span> <span class="cm-variable">EllipticCurve</span>(<span class="cm-variable">GF</span>(<span class="cm-variable">p</span>), [<span class="cm-variable">a</span>, <span class="cm-variable">b</span>])</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">G_x</span>, <span class="cm-variable">G_y</span> <span class="cm-operator">=</span> (<span class="cm-number">3034712809375537908102988750113382444008758539448972750581525810900634243392172703684905257490982543775233630011707375189041302436945106395617312498769005</span>, <span class="cm-number">4986645098582616415690074082237817624424333339074969364527548107042876175480894132576399611027847402879885574130125050842710052291870268101817275410204850</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">G</span> <span class="cm-operator">=</span> <span class="cm-variable">E</span>(<span class="cm-variable">G_x</span>, <span class="cm-variable">G_y</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">b_x</span> <span class="cm-operator">=</span> <span class="cm-number">0x7f0489e4efe6905f039476db54f9b6eac654c780342169155344abc5ac90167adc6b8dabacec643cbe420abffe9760cbc3e8a2b508d24779461c19b20e242a38</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">b_y</span> <span class="cm-operator">=</span> <span class="cm-number">0xdd04134e747354e5b9618d8cb3f60e03a74a709d4956641b234daa8a65d43df34e18d00a59c070801178d198e8905ef670118c15b0906d3a00a662d3a2736bf</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">B</span> <span class="cm-operator">=</span> <span class="cm-variable">E</span>(<span class="cm-variable">b_x</span>, <span class="cm-variable">b_y</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">a_x</span>, <span class="cm-variable">a_y</span> <span class="cm-operator">=</span> (<span class="cm-number">4748198372895404866752111766626421927481971519483471383813044005699388317650395315193922226704604937454742608233124831870493636003725200307683939875286865</span>, <span class="cm-number">2421873309002279841021791369884483308051497215798017509805302041102468310636822060707350789776065212606890489706597369526562336256272258544226688832663757</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">A</span> <span class="cm-operator">=</span> <span class="cm-variable">E</span>(<span class="cm-variable">a_x</span>, <span class="cm-variable">a_y</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># From Crypto StackExchange code</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">SmartAttack</span>(<span class="cm-variable">P</span>,<span class="cm-variable">Q</span>,<span class="cm-variable">p</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">E</span> <span class="cm-operator">=</span> <span class="cm-variable">P</span>.<span class="cm-property">curve</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">Eqp</span> <span class="cm-operator">=</span> <span class="cm-variable">EllipticCurve</span>(<span class="cm-variable">Qp</span>(<span class="cm-variable">p</span>, <span class="cm-number">2</span>), [ <span class="cm-variable">ZZ</span>(<span class="cm-variable">t</span>) <span class="cm-operator">+</span> <span class="cm-variable">randint</span>(<span class="cm-number">0</span>,<span class="cm-variable">p</span>)<span class="cm-operator">*</span><span class="cm-variable">p</span> <span class="cm-keyword">for</span> <span class="cm-variable">t</span> <span class="cm-keyword">in</span> <span class="cm-variable">E</span>.<span class="cm-property">a_invariants</span>() ])</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">P_Qps</span> <span class="cm-operator">=</span> <span class="cm-variable">Eqp</span>.<span class="cm-property">lift_x</span>(<span class="cm-variable">ZZ</span>(<span class="cm-variable">P</span>.<span class="cm-property">xy</span>()[<span class="cm-number">0</span>]), <span class="cm-builtin">all</span><span class="cm-operator">=</span><span class="cm-keyword">True</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">for</span> <span class="cm-variable">P_Qp</span> <span class="cm-keyword">in</span> <span class="cm-variable">P_Qps</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">if</span> <span class="cm-variable">GF</span>(<span class="cm-variable">p</span>)(<span class="cm-variable">P_Qp</span>.<span class="cm-property">xy</span>()[<span class="cm-number">1</span>]) <span class="cm-operator">==</span> <span class="cm-variable">P</span>.<span class="cm-property">xy</span>()[<span class="cm-number">1</span>]:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">break</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">Q_Qps</span> <span class="cm-operator">=</span> <span class="cm-variable">Eqp</span>.<span class="cm-property">lift_x</span>(<span class="cm-variable">ZZ</span>(<span class="cm-variable">Q</span>.<span class="cm-property">xy</span>()[<span class="cm-number">0</span>]), <span class="cm-builtin">all</span><span class="cm-operator">=</span><span class="cm-keyword">True</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">for</span> <span class="cm-variable">Q_Qp</span> <span class="cm-keyword">in</span> <span class="cm-variable">Q_Qps</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">if</span> <span class="cm-variable">GF</span>(<span class="cm-variable">p</span>)(<span class="cm-variable">Q_Qp</span>.<span class="cm-property">xy</span>()[<span class="cm-number">1</span>]) <span class="cm-operator">==</span> <span class="cm-variable">Q</span>.<span class="cm-property">xy</span>()[<span class="cm-number">1</span>]:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">break</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">p_times_P</span> <span class="cm-operator">=</span> <span class="cm-variable">p</span><span class="cm-operator">*</span><span class="cm-variable">P_Qp</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">p_times_Q</span> <span class="cm-operator">=</span> <span class="cm-variable">p</span><span class="cm-operator">*</span><span class="cm-variable">Q_Qp</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">x_P</span>,<span class="cm-variable">y_P</span> <span class="cm-operator">=</span> <span class="cm-variable">p_times_P</span>.<span class="cm-property">xy</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">x_Q</span>,<span class="cm-variable">y_Q</span> <span class="cm-operator">=</span> <span class="cm-variable">p_times_Q</span>.<span class="cm-property">xy</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">phi_P</span> <span class="cm-operator">=</span> <span class="cm-operator">-</span>(<span class="cm-variable">x_P</span><span class="cm-operator">/</span><span class="cm-variable">y_P</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">phi_Q</span> <span class="cm-operator">=</span> <span class="cm-operator">-</span>(<span class="cm-variable">x_Q</span><span class="cm-operator">/</span><span class="cm-variable">y_Q</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">k</span> <span class="cm-operator">=</span> <span class="cm-variable">phi_Q</span><span class="cm-operator">/</span><span class="cm-variable">phi_P</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> <span class="cm-variable">ZZ</span>(<span class="cm-variable">k</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Obtain the secret nA</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">nA</span> <span class="cm-operator">=</span> <span class="cm-variable">SmartAttack</span>(<span class="cm-variable">G</span>, <span class="cm-variable">A</span>, <span class="cm-variable">p</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">secret</span> <span class="cm-operator">=</span> <span class="cm-variable">shared_secret</span>(<span class="cm-variable">B</span>, <span class="cm-variable">nA</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">sha1</span> <span class="cm-operator">=</span> <span class="cm-variable">hashlib</span>.<span class="cm-property">sha1</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">sha1</span>.<span class="cm-property">update</span>(<span class="cm-builtin">str</span>(<span class="cm-variable">secret</span>).<span class="cm-property">encode</span>(<span class="cm-string">'ascii'</span>))</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">key</span> <span class="cm-operator">=</span> <span class="cm-variable">sha1</span>.<span class="cm-property">digest</span>()[:<span class="cm-number">16</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">iv</span> <span class="cm-operator">=</span> <span class="cm-builtin">bytes</span>.<span class="cm-property">fromhex</span>(<span class="cm-string">'719700b2470525781cc844db1febd994'</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">ct</span> <span class="cm-operator">=</span> <span class="cm-builtin">bytes</span>.<span class="cm-property">fromhex</span>(<span class="cm-string">'335470f413c225b705db2e930b9d460d3947b3836059fb890b044e46cbb343f0'</span>) </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">cipher</span> <span class="cm-operator">=</span> <span class="cm-variable">AES</span>.<span class="cm-property">new</span>(<span class="cm-variable">key</span>, <span class="cm-variable">AES</span>.<span class="cm-property">MODE_CBC</span>, <span class="cm-variable">iv</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">flag</span> <span class="cm-operator">=</span> <span class="cm-variable">unpad</span>(<span class="cm-variable">cipher</span>.<span class="cm-property">decrypt</span>(<span class="cm-variable">ct</span>), <span class="cm-number">16</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-variable">flag</span>.<span class="cm-property">decode</span>())</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 1935px;"></div><div class="CodeMirror-gutters" style="display: none; height: 1935px;"></div></div></div></pre></div></div>
 </body>
 </html>

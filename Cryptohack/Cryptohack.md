@@ -48,3 +48,15 @@ A famous platform for practicing Cryptography related topics. I did this for the
 |[Additive](./additive)|Diffie-Hellman - Group Theory|
 |[Script Kiddie](./script-kiddie)|Diffie-Hellman - Misc|
 |[The Matrix](./the-matrix)|Diffie-Hellman - Misc|
+|[The Matrix Revolution](./the-matrix-reloaded)|Diffie-Hellman - Misc|
+|[No Way Back Home](./no-way-back-home)|Mathematics - Brainteasers|
+|[Ellipse Curve Cryptography](./ellipse-curve-cryptography)|Mathematics - Brainteasers|
+|[Unencryptable](./unencryptable)|Mathematics - Brainteasers|
+|[Roll Your Own](./roll-your-own)|Mathematics - Brainteasers|
+|[Primes and Prejudice](./primes-and-prejudice)|Mathematics - Brainteasers|
+|[Find The Lattice](./find-the-lattice)|Mathematics - Lattices|
+|[Backpack Cryptography](./backpack-cryptography)|Mathematics - Lattices|
+|[Cofactor Cofantasy](./cofactor-cofantasy)|Mathematics - Brainteasers|
+|[Double and Broken](./double-and-broken)|Elliptic Curves - Side Channels|
+|[Digestive](./digestive)|Elliptic Curves - Signatures|
+|[Double And Broken](./double-and-broken)|Elliptic Curves - Parameter Choice|
