@@ -544,7 +544,7 @@ if(my_session_start()) {
 The `print_credentials()` in the `else` branch, will result in the "regular user" message, as the value of `$_SESSION["admin"]` is set to the result of `isValidAdminLogin()`, which always return 0. Hence, we must find a way to invoke the `print_credentials()` in the `if` branch, as there is no operation setting the `admin` value of the session to 0. Thus, we need to find a way to make `my_session_start()` return True.
 
 ```php
-function my_session_start() { /* {{{ */
+function my_session_start() {
     if(array_key_exists("PHPSESSID", $_COOKIE) and isValidID($_COOKIE["PHPSESSID"])) {
     if(!session_start()) {
         debug("Session start failed");
