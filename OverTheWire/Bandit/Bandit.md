@@ -8,41 +8,6 @@
 
 The [Bandit](https://overthewire.org/wargames/bandit/) wargame is aimed at absolute beginners. It will teach the basics needed to be able to play other wargames.
 
-- [Bandit 0](#bandit-0)
-- [Bandit 1](#bandit-1)
-- [Bandit 2](#bandit-2)
-- [Bandit 3](#bandit-3)
-- [Bandit 4](#bandit-4)
-- [Bandit 5](#bandit-5)
-- [Bandit 6](#bandit-6)
-- [Bandit 7](#bandit-7)
-- [Bandit 8](#bandit-8)
-- [Bandit 9](#bandit-9)
-- [Bandit 10](#bandit-10)
-- [Bandit 11](#bandit-11)
-- [Bandit 12](#bandit-12)
-- [Bandit 13](#bandit-13)
-- [Bandit 14](#bandit-14)
-- [Bandit 15](#bandit-15)
-- [Bandit 16](#bandit-16)
-- [Bandit 17](#bandit-17)
-- [Bandit 18](#bandit-18)
-- [Bandit 19](#bandit-19)
-- [Bandit 20](#bandit-20)
-- [Bandit 21](#bandit-21)
-- [Bandit 22](#bandit-22)
-- [Bandit 23](#bandit-23)
-- [Bandit 24](#bandit-24)
-- [Bandit 25](#bandit-25)
-- [Bandit 26](#bandit-26)
-- [Bandit 27](#bandit-27)
-- [Bandit 28](#bandit-28)
-- [Bandit 29](#bandit-29)
-- [Bandit 30](#bandit-30)
-- [Bandit 31](#bandit-31)
-- [Bandit 32](#bandit-32)
-- [Bandit 33](#bandit-33)
-
 # Bandit 0 
 
 A few problem with connecting to a legacy ssh server, but can be rectify by using

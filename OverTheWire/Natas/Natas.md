@@ -2,28 +2,6 @@
   <h1>Natas</h1>
 </div>
 
-- [Natas 0](#natas-0)
-- [Natas 1](#natas-1)
-- [Natas 2](#natas-2)
-- [Natas 3](#natas-3)
-- [Natas 4](#natas-4)
-- [Natas 5](#natas-5)
-- [Natas 6](#natas-6)
-- [Natas 7](#natas-7)
-- [Natas 8](#natas-8)
-- [Natas 9](#natas-9)
-- [Natas 10](#natas-10)
-- [Natas 11](#natas-11)
-- [Natas 12](#natas-12)
-- [Natas 13](#natas-13)
-- [Natas 14](#natas-14)
-- [Natas 15](#natas-15)
-- [Natas 16](#natas-16)
-- [Natas 17](#natas-17)
-- [Natas 18](#natas-18)
-- [Natas 19](#natas-19)
-- [Natas 20](#natas-20)
-
 # Natas 0 
 
 Simple Inspect Element of the page will reveal the password in the comment of the HTML.

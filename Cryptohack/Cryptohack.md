@@ -60,3 +60,7 @@ A famous platform for practicing Cryptography related topics. I did this for the
 |[Double and Broken](./double-and-broken)|Elliptic Curves - Side Channels|
 |[Digestive](./digestive)|Elliptic Curves - Signatures|
 |[Double And Broken](./double-and-broken)|Elliptic Curves - Parameter Choice|
+|[Exceptional Curves](./exceptional-curves)|Elliptic Curves - Parameter Choice|
+|[Micro Transmissions](./micro-transmissions)|Elliptic Curves - Parameter Choice|
+|[Elliptic Nodes](./elliptic-nodes)|Elliptic Curves - Parameter Choice|
+|[Edwards Goes Degenerate](./edwards-goes-degenerate)|Elliptic Curves - Edwards Curve|
